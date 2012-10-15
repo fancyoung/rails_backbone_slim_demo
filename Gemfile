@@ -5,6 +5,7 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'slim', '1.2.2'
 gem 'slim-rails',     :git => 'git://github.com/leogalmeida/slim-rails.git'
 
 
@@ -17,7 +18,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'skim'
+  gem 'skim', :git => 'git://github.com/jfirebaugh/skim.git'
   gem 'uglifier', '>= 1.0.3'
 end
 
